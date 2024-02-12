@@ -16,13 +16,15 @@
     "eslint": "eslint . --ext .js,.ts",
     "upgrade": "npm update --save-dev && npm update --save",
     "upgrade-latest": "npx npm-check-updates -u && npm install ",
-    "test": "jest --forceExit --detectOpenHandles --coverage --verbose"
+    "test": "jest --forceExit --detectOpenHandles --coverage --verbose",
+    "docker:build": "docker-compose build",
+    "docker:run": "docker-compose up -d"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/janishar/nodejs-backend-architecture-typescript.git"
+    "url": "https://github.com/kaiyum2024/nodejs-backend-architecture-typescript"
   },
-  "author": "Janishar Ali",
+  "author": "Abdulkaiyum S.",
   "license": "Apache-2.0",
   "dependencies": {
     "axios": "^1.6.5",
